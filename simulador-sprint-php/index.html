@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Sprints</title>
+</head>
+<body>
+    <main>
+        <h1>Preencha os seguintes campos</h1>
+        <form action="sprint.php" method="post">
+            <label for="total-tarefas">Total de tarefas: <input type="number"  name="total-tarefas" id="idtarefas" min="1" required></label><br><br>
+
+            <label for="duracao-sprint">Duração de cada sprint (em dias) <input type="number"  name="duracao-sprint" id="idduracao" min="1" required></label><br><br>
+
+            <label for="media-concluidas">Número médio de tarefas concluídas por sprint <input type="number"  name="media-concluidas" id="idmedia" min="1" required></label><br><br>
+
+            <label for="total-dias">Número total de dias disponíveis <input type="number" name="total-dias" id="idtotal-dias" min="1" required></label><br><br>
+            
+            <input type="submit"  value="Enviar">
+        </form>
+    </main>
+</body>
+</html>
